@@ -19,6 +19,7 @@ header {
 nav ul {
     list-style: none;
     background: #164884;
+    text-align: center;
 }
 
 nav ul li {
