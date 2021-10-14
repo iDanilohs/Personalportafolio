@@ -1,0 +1,13 @@
+ul li{
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+}
+
+.hide {
+    display: block;
+}
+
+nav ul {
+    display: none;
+}
