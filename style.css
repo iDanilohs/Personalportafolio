@@ -49,9 +49,9 @@ nav ul li:hover {
 
 /* Style of the main */
 
-.main-content .container.grid-2 {
+.column-2.image {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }

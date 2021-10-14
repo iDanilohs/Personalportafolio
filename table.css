@@ -15,8 +15,8 @@ nav ul {
 .column-2.image{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    height: 80%;
+    align-items: center;
+    justify-content: center;
 }
 
 .column-1{
