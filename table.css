@@ -12,7 +12,17 @@ nav ul {
     display: none;
 }
 
-.main-content .container.grid-2 .column-1 {
-    align-items: center;
-    justify-content: center;
+.column-2.image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+}
+
+.column-1{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    min-width: 150px;
+    height: 150px;
 }

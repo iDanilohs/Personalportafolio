@@ -48,9 +48,10 @@ nav ul li:hover {
 /*End Style of the navigator */
 
 /* Style of the main */
-.main-content .container.grid-2 .column-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+.main-content .container.grid-2 {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
