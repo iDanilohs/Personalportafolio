@@ -48,7 +48,9 @@ nav ul li:hover {
 /*End Style of the navigator */
 
 /* Style of the main */
-.main-content .container .grid-2 {
+.main-content .container.grid-2 .column-1 {
     display: grid;
-    grid-template-columns: 200px 100px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
 }

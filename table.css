@@ -11,3 +11,8 @@ ul li{
 nav ul {
     display: none;
 }
+
+.main-content .container.grid-2 .column-1 {
+    align-items: center;
+    justify-content: center;
+}
