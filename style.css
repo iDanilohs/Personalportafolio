@@ -7,7 +7,7 @@
 body {
     font-family: 'Century Gothic', sans-serif;
 }
-
+/* Style of the navigator */
 header {
     width: 100%;
     padding: 40px;   
@@ -44,4 +44,11 @@ nav ul li:hover {
     color: white;
     cursor: pointer;
     display: none;
+}
+/*End Style of the navigator */
+
+/* Style of the main */
+.main-content .container .grid-2 {
+    display: grid;
+    grid-template-columns: 200px 100px;
 }
