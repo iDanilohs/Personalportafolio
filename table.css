@@ -12,17 +12,29 @@ nav ul {
     display: none;
 }
 
-.column-2.image{
+.main-content {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 
-.column-1{
+.column-2.image{
     display: flex;
     flex-wrap: wrap;
-    min-width: 100%;
-    min-width: 150px;
-    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.column-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+
 }

@@ -49,9 +49,21 @@ nav ul li:hover {
 
 /* Style of the main */
 
-.column-2.image {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: left;
-    justify-content: left;
+.main-content{
+    margin: 0 auto;
+    width: 80vw;
+    height: 30vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background: darkblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
 }
