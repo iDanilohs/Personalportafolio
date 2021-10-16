@@ -51,10 +51,3 @@ nav ul {
 /* End section about me */
 
 /* section projects */
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
