@@ -6,14 +6,17 @@
 
 body {
     font-family: 'Century Gothic', sans-serif;
+    background-color: #191c32;
 }
+
+
 /* Style of the navigator */
 header {
     width: 100%;
     padding: 40px;   
     color: white;
     text-align: center;
-    background: #112d4e;
+    background: #191c32;
 }
 
 nav ul {
@@ -52,18 +55,35 @@ nav ul li:hover {
 .main-content{
     margin: 0 auto;
     width: 80vw;
-    height: 30vw;
+    height: 40vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
 }
 
+.title1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.text {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
 .download-cv {
     padding: 10px 20px;
-    background: darkblue;
+    background: #164884;
     color: white;
     border: none;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     cursor: pointer;
 }
