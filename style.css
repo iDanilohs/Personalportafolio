@@ -7,6 +7,7 @@
 body {
     font-family: 'Century Gothic', sans-serif;
     background-color: #191c32;
+    color: white;
 }
 
 
@@ -50,7 +51,7 @@ nav ul li:hover {
 }
 /*End Style of the navigator */
 
-/* Style of the main */
+/* Style of the main in general*/
 
 .main-content{
     margin: 0 auto;
@@ -60,13 +61,16 @@ nav ul li:hover {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
 }
+/* End of the Style of the main in general*/
 
+/* Section about me */
 .title1 {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
     color: white;
+    font-size: 2.5em;
 }
 
 .text {
@@ -79,11 +83,48 @@ nav ul li:hover {
 
 .download-cv {
     padding: 10px 20px;
-    background: #164884;
+    background-color: #164884;
     color: white;
     border: none;
     border-radius: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
     cursor: pointer;
+}
+
+.download-cv:hover {
+    background: #112d4e;
+}
+/* End of the section about me */
+
+/* Section of projects */
+.projects-headings {
+    margin-top: 1%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em;
+}
+
+.projects-headings h1 {
+    font-size: 2.5em;
+}
+
+.projects-container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card {
+    width: 300px;
+}
+
+.projects-card-img {
+    width: 100%;
+    height: 150px;
 }

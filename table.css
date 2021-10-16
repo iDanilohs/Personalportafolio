@@ -1,3 +1,5 @@
+
+/* Navigator */
 ul li{
     width: 100%;
     padding: 16px;
@@ -11,7 +13,9 @@ ul li{
 nav ul {
     display: none;
 }
+/* End of navigator */
 
+/* section about me */
 .main-content {
     display: flex;
     flex-wrap: wrap;
@@ -43,4 +47,14 @@ nav ul {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+}
+/* End section about me */
+
+/* section projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
