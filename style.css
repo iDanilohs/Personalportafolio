@@ -103,6 +103,91 @@ nav ul li:hover {
     margin-top: 1%;
 }
 
+.projects-card {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    will-change: transform;
+    border-radius: 5%;
+}
+
+.projects-headings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.projects-headings h1 {
+    font-size: 2.5em;
+}
+
+.projects-container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;    
+    justify-content: center;
+}
+
+.projects-card-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.projects-card-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.projects-card-links a {
+    color: #ffff;
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+.projects-card-links i {
+    font-size: 1.5em;
+}
+
+.PButton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.projects-card .project-details {
+    margin: 0 auto;
+    align-self: center;
+    margin: 1em;
+    width: 60%;
+}
+
+.projects-card .project-details a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
 
 
 

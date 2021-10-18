@@ -51,3 +51,51 @@ nav ul {
 /* End section about me */
 
 /* section projects */
+
+.projects-headings {
+    align-items: center;
+    align-content: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projects-card-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card-title {
+    padding: 5%;
+    margin-left: 9%;
+}
+
+.projects-card-links a{
+    display: flex;
+    margin-right: 10%;
+}
+
+
