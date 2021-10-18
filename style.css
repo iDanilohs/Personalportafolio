@@ -6,14 +6,18 @@
 
 body {
     font-family: 'Century Gothic', sans-serif;
+    background-color: #191c32;
+    color: white;
 }
 
+
+/* Style of the navigator */
 header {
     width: 100%;
     padding: 40px;   
     color: white;
     text-align: center;
-    background: #112d4e;
+    background: #191c32;
 }
 
 nav ul {
@@ -45,3 +49,147 @@ nav ul li:hover {
     cursor: pointer;
     display: none;
 }
+/*End Style of the navigator */
+
+/* Style of the main in general*/
+
+.main-content{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+/* End of the Style of the main in general*/
+
+/* Section about me */
+.title1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 2.5em;
+}
+
+.text {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: #164884;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.download-cv:hover {
+    background: #112d4e;
+}
+/* End of the section about me */
+
+/* Section of projects */
+
+.projects {
+    margin-top: 1%;
+}
+
+.projects-card {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    will-change: transform;
+    border-radius: 5%;
+}
+
+.projects-headings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.projects-headings h1 {
+    font-size: 2.5em;
+}
+
+.projects-container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;    
+    justify-content: center;
+}
+
+.projects-card-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.projects-card-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.projects-card-links a {
+    color: #ffff;
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+.projects-card-links i {
+    font-size: 1.5em;
+}
+
+.PButton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.projects-card .project-details {
+    margin: 0 auto;
+    align-self: center;
+    margin: 1em;
+    width: 60%;
+}
+
+.projects-card .project-details a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+

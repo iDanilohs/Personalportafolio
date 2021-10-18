@@ -73,9 +73,6 @@ nav ul {
     justify-content: center;
 }
 
-.projects-card {
-    width: 100%;
-}
 
 .projects-card-title {
     display: flex;
@@ -92,20 +89,13 @@ nav ul {
 }
 
 .projects-card-title {
-    padding: 1%;
-    margin-left: 0%;
+    padding: 5%;
+    margin-left: 9%;
 }
 
 .projects-card-links a{
     display: flex;
-    margin-right: 4%;
-}
-
-.projects-card .project-details {
-    margin: 0 auto;
-    align-self: center;
-    margin: 1em;
-    width: 30%;
+    margin-right: 10%;
 }
 
 
