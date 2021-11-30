@@ -198,8 +198,44 @@ nav ul li:hover {
     padding: 1.5em;
 }
 
+/* Contact */
 
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card-links-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 0.5%;
+}
+
+.projects-card-links-contact a {
+    color: #ffff;
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+.projects-card-links-contact i {
+    font-size: 1.5em;
+}
+
+.btn2 {
+    padding: 5%;
+}
 
 
 
