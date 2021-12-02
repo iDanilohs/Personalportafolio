@@ -278,5 +278,9 @@ nav ul li:hover {
     font-family: inherit;
 }
 
+#truco {
+    opacity: 0;
+}
+
 
 
