@@ -80,16 +80,60 @@
                             </a>
 
                         </div>
-
-                        <!-- <div class="PButton">
-                            <button class="project-details download-cv">
-                                <a href="#">
-                                    Details
-                                </a>
-                                
-                            </button>
                             
-                        </div> -->
+                        
+                    </div>
+
+                    <div class="projects-card">
+                        <picture class="projects-card-img">
+                            <source media="(max-width: 800px)" srcset="./img/pequeña2.png" />
+                            <img src="./img/grande2.png" alt="project about something">
+                        </picture>
+                        <div class="projects-card-title">
+                            <h2>title project</h2>
+                        </div>
+
+                        <div class="projects-card-links">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-globe-americas"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-file-code"></i>
+                            </a>
+
+                        </div>
+                            
+                        
+                    </div>
+
+                    <div class="projects-card">
+                        <picture class="projects-card-img">
+                            <source media="(max-width: 800px)" srcset="./img/pequeña2.png" />
+                            <img src="./img/grande2.png" alt="project about something">
+                        </picture>
+                        <div class="projects-card-title">
+                            <h2>title project</h2>
+                        </div>
+
+                        <div class="projects-card-links">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-globe-americas"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-file-code"></i>
+                            </a>
+
+                        </div>
                             
                         
                     </div>
@@ -104,27 +148,22 @@
                 </div>
 
                 <div class="contact-container">
-                    <form action="send.php" method="post">
+                    <form id="form" action="" method="post" class="form">
 
-                        <label for="name">
-                            <span>What is your name?</span><br>
-                            <input type="text" id="name" required="required"><br>
-                        </label>
+                        <label for="name">What is your name?<span>*</span></label>
+                        <input name="name" required type="text" id="name" placeholder="Danilo">
 
-                        <label for="gmail">
-                            <span>What is your email?</span><br>
-                            <input type="text" id="gmail" required="required"><br>
-                        </label>
+                        <label for="email">What is your email address?<span>*</span></label>
+                        <input name="email" required type="text" id="email" placeholder="Danilo@gmail.com">
 
-                        <label for="messenge">
-                            <span>Write your message</span><br>
-                            <input type="text" id="messenge" required="required"><br>
-                        </label>
+                        <label for="message">Message<span>*</span></label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                        <a href="#" class="btn">
+                            <button type="submit" class="download-cv">Send</button>
+                        </a>
+
                     </form>
-                    
-                    <a href="#" class="btn2">
-                        <button type="submit" class="download-cv">Send</button>
-                    </a>
                     
 
                 </div>
